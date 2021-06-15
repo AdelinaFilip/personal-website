@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
