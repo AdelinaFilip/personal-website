@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f4f3ee;
+  background-color: #feeeee;
 }
 
 .title {
@@ -23,7 +23,7 @@
   justify-content: center;
   border-radius: 5px;
   background-color: white;
-  color: #8a817c;
+  color: #7D98A1;
 }
 
 .socials {
@@ -40,18 +40,21 @@
 .link {
   text-decoration: none;
   color: inherit;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .link:hover {
-  transform: scale(2);
+  transform: scale(1.5);
   transition-property: transform;
   transition-duration: 0.3s;
   transition-timing-function: ease-in-out;
-  color: #720026;
+  color: #A93F55;
 }
 
 .divider {
-  background-color: #8a817c;
+  background-color: #7D98A1;
   width: 300px;
   border-radius: 5%;
   border: none;
