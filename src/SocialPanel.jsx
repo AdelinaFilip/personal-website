@@ -3,26 +3,6 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
 
 function SocialPanel() {
-  const Mailto = ({
-    email, subject, body, children
-  }) => {
-    return (
-      <a href={
-        `mailto:${email}?subject=${encodeURIComponent(subject) || ""}&body=${encodeURIComponent(body) || ""}`
-      } className="link">
-        {children}
-      </a>
-    );
-  };
-
-  const GoTo = ({ link, children }) => {
-    return (
-      <a href={`${link}`} className="link" target="_blank" rel="noreferrer">
-        {children}
-      </a>
-    );
-  };
-
   return (
     <div className="socials">
       <Mailto email="adelinaf21@gmail.com" subject="Hello!">
@@ -35,6 +15,26 @@ function SocialPanel() {
         <FaGithub />
       </GoTo>
     </div>
+  );
+}
+
+function Mailto({
+  email, subject, body, children
+}) {
+  return (
+    <a href={
+      `mailto:${email}?subject=${encodeURIComponent(subject) || ""}&body=${encodeURIComponent(body) || ""}`
+    } className="link">
+      {children}
+    </a>
+  );
+}
+
+function GoTo({ link, children }) {
+  return (
+    <a href={`${link}`} className="link" target="_blank" rel="noreferrer">
+      {children}
+    </a>
   );
 }
 
