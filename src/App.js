@@ -16,13 +16,21 @@ function App() {
     });
   };
 
+  const projectsRef = useRef(null);
+  const scrollToProjects = () => {
+    projectsRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <div className="main">
-      <Header scrollToAbout={scrollToAbout} />
+      <Header scrollToAbout={scrollToAbout} scrollToProjects={scrollToProjects}/>
       <Snowfall color="#c9576e" snowflakeCount={300} style={{ height: "200vh" }} />
       <Landing />
       <About ref={aboutRef} />
-      <Projects />
+      <Projects ref={projectsRef}/>
     </div>
   );
 }

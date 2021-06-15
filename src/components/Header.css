@@ -1,0 +1,19 @@
+.header {
+  color: #c9576e;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.header-element {
+  font-weight: 500;
+  font-size: large;
+  padding-left: 40px;
+  padding-top: 5px;
+}
+
+.header-element:hover {
+  font-weight: 700;
+}
