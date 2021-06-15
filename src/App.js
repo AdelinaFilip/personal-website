@@ -9,6 +9,7 @@ function App() {
       <Tilt tiltMaxAngleX={15} tiltMaxAngleY={15}>
         <div className="card">
           <h2 className="title">Hi, I'm Adelina!</h2>
+          <hr className="divider"/>
           <div className="socials">
             <Mailto email="adelinaf21@gmail.com" subject="Hello!">
               <GrMail />

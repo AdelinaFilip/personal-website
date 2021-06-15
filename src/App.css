@@ -46,3 +46,11 @@
   font-size: larger;
   color: #720026;
 }
+
+.divider {
+  background-color: #8a817c;
+  width: 300px;
+  border-radius: 5%;
+  border: none;
+  height: 1.5px;
+}
