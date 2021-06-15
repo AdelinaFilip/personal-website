@@ -9,6 +9,7 @@
   padding-left: 10%;
   background-color: white;
   background-image: linear-gradient(to top, rgba(254, 238, 238,1), rgba(255,0,0,0));
+  width: 100%;
 }
 
 .projects-text {
@@ -18,4 +19,44 @@
   align-items: center;
   justify-content: center;
   padding: 5%;
+  flex: 2;
+  /* background-color: tomato; */
+}
+
+.projects-text2 {
+  background-color: teal;
+}
+
+.projects-box {
+  width: 74vw;
+  background-color: white;
+  border-radius: 10px;
+  background-color: white;
+  border-width: 10px;
+  border-color: #b7c1c4;
+  border-style: double;
+  display: flex;
+  flex-direction: row;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls-text {
+  color: #6b8087;
+  font-size: large;
+}
+
+.projects-divider {
+  background-color: #6b8087;
+  border-radius: 5%;
+  border: none;
+  height: 70%;
+  width: 1.5px;
+  align-self: center;
 }
