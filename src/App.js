@@ -9,7 +9,7 @@ function App() {
     <div className="main">
       <Tilt tiltMaxAngleX={15} tiltMaxAngleY={15}>
         <div className="card">
-          <h2 className="title">Hi, I'm Adelina!</h2>
+          <h1 className="title">Hi, I'm Adelina!</h1>
           <hr className="divider" />
           <SocialPanel />
         </div>
