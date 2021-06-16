@@ -2,7 +2,6 @@ import "./Projects.css";
 import { ProjectInstance } from "./utils";
 
 function ProjectPanel({ project }: { project: ProjectInstance }) {
-  console.log(project);
   return (
     <div className="project-box">
       <div className="project-top">
