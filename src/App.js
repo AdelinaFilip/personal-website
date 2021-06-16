@@ -2,7 +2,7 @@ import { useRef } from "react";
 import "./App.css";
 import Snowfall from "react-snowfall";
 
-import About from "./components/About";
+import About from "./components/About.jsx";
 import Projects from "./components/Projects";
 import Landing from "./components/Landing";
 import Header from "./components/Header";
