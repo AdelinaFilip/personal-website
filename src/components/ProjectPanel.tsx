@@ -5,9 +5,11 @@ function ProjectPanel({ project }: { project: ProjectInstance }) {
   console.log(project);
   return (
     <div className="project-box">
-      <div className="project-el">{project.title}</div>
-      <div className="project-el">{project.date.toString()}</div>
-      <div className="project-el">{project.description}</div>
+      <div className="project-top">
+        <h2 className="project-el-title">{project.title}</h2>
+        <h3 className="project-date">{project.date}</h3>
+      </div>
+      <div className="project-description">{project.description}</div>
     </div>
   );
 }
