@@ -9,7 +9,15 @@ function ProjectPanel({ project }: { project: ProjectInstance }) {
         <h2 className="project-el-title">{project.title}</h2>
         <h3 className="project-date">{project.date}</h3>
       </div>
-      <div className="project-description">{project.description}</div>
+      <div className="project-description">
+        <ul>
+          {
+            project.description.map(
+              item => <li key={item.length}>{item}</li>
+            )
+          }
+        </ul>
+      </div>
     </div>
   );
 }

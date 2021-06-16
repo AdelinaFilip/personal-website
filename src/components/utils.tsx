@@ -1,5 +1,5 @@
 export interface ProjectInstance {
   title: String,
-  description: String,
-  date: Date,
+  description: String[],
+  date: String,
 }
