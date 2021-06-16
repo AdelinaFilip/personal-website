@@ -18,8 +18,8 @@ export const projects = [
   {
     "title": "While Family Language (WACC) Compiler",
     "description": [
-      "Implemented a compiler for the WACC, with optimised compiler speed by using Static Single Assignment (SSA)",
-      "Translated ANTLR's output into the form of an Abstract Syntax Tree that would be used for generating the ARM Assembly code}",
+      "Implemented a compiler for WACC, with optimised compiler speed by using Static Single Assignment (SSA)",
+      "Translated ANTLR's output into the form of an Abstract Syntax Tree that would be used for generating the ARM Assembly code",
     ],
     "date": "Jan-Mar 2020",
   },
