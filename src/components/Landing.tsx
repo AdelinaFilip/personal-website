@@ -2,13 +2,16 @@ import "../App.css";
 import Tilt from "react-parallax-tilt";
 
 import SocialPanel from "./SocialPanel";
+// import me from "../images/me2.jpg";
+
 
 function Landing() {
   return (
     <div className="landing">
-      <Tilt tiltMaxAngleX={16} tiltMaxAngleY={16}>
+      <Tilt tiltMaxAngleX={16} tiltMaxAngleY={16} glareEnable={true}>
         <div className="card">
           <div className="card-contents">
+            {/* <img className="me-img" src={me} alt="me" /> */}
             <h1 className="title">Hi, I'm <span> &nbsp;Adelina!</span></h1>
             <hr className="divider" />
             <SocialPanel />
