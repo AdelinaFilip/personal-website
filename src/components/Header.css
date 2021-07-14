@@ -17,5 +17,9 @@
 }
 
 .header-element:hover {
-  font-weight: 700;
+  transform: scale(1.04);
+  transition-property: transform;
+  transition-duration: 0.05s;
+  transition-timing-function: ease-in-out;
+  /* font-weight: 700; */
 }

@@ -87,3 +87,9 @@
   border: none;
   height: 1.5px;
 }
+
+.me-img {
+  height: 175px;
+  border-radius: 50%;
+  padding: 5px;
+}

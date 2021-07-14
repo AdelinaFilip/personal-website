@@ -1,11 +1,9 @@
 import { forwardRef } from "react";
 
 import "./About.css";
-import me from "../images/me2.jpg";
 
 const About = forwardRef((_, ref) => (
   <div ref={ref} className="about-main">
-    <img className="me-img" src={me} alt="me" />
     <div className="about-rhs">
       <div className="about-title">
         <h2 className="about-about">about</h2>
