@@ -26,11 +26,15 @@ function App() {
 
   return (
     <div className="main">
-      <Header scrollToAbout={scrollToAbout} scrollToProjects={scrollToProjects}/>
-      <Snowfall color="#c9576e" snowflakeCount={300} style={{ height: "310vh" }} />
+      <Header scrollToAbout={scrollToAbout} scrollToProjects={scrollToProjects} />
+      <div style={{
+        position: "fixed", top: 0, bottom: 0, left: 0, right: 0
+      }}>
+        <Snowfall color="#c9576e" snowflakeCount={250} />
+      </div>
       <Landing />
       <About ref={aboutRef} />
-      <Projects ref={projectsRef}/>
+      <Projects ref={projectsRef} />
     </div>
   );
 }
