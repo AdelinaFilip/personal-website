@@ -39,4 +39,4 @@ export const projects = [
     ],
     "date": "Oct-Dec 2020",
   },
-];
+].reverse();
