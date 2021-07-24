@@ -3,7 +3,9 @@ import { ProjectInstance } from "./utils";
 
 function ProjectPanel({ project }: { project: ProjectInstance }) {
   return (
-    <div className="project-box">
+    <div 
+      className="project-box"
+    >
       <div className="project-top">
         <h2 className="project-el-title">{project.title}</h2>
         <h3 className="project-date">{project.date}</h3>

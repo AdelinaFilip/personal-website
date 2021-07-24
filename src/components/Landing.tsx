@@ -1,8 +1,9 @@
 import "../App.css";
 import Tilt from "react-parallax-tilt";
 
-import SocialPanel from "./SocialPanel";
 import me from "../images/me2.jpg";
+
+import SocialPanel from "./SocialPanel";
 
 
 function Landing() {

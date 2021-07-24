@@ -18,4 +18,6 @@ const Projects = forwardRef((_, ref) => (
   </div>
 ));
 
+Projects.displayName = "Projects";
+
 export default Projects;
