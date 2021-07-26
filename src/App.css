@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* min-height: 100vh; */
   background-color: #feeeee;
 }
 
@@ -21,8 +20,8 @@
   flex-direction: row;
   flex: 1;
   justify-content: center;
-  align-items:flex-end;
-  width: 400px;
+  align-items: flex-end;
+  width: 300px;
 }
 
 .title span {
@@ -42,6 +41,19 @@
   border-width: 10px;
   border-color: #b7c1c4;
   border-style: double;
+}
+
+.card-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  background-color: white;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: small;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .card-contents {
@@ -76,7 +88,6 @@
 .link:hover {
   transform: scale(1.5);
   transition-property: transform;
-
   transition-timing-function: ease-in-out;
   color: #c9576e;
 }
