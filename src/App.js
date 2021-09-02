@@ -6,6 +6,7 @@ import About from "./components/About.jsx";
 import Projects from "./components/Projects";
 import Landing from "./components/Landing";
 import Header from "./components/Header";
+import { isMobile } from "react-device-detect";
 
 function App() {
   const aboutRef = useRef(null);
@@ -30,7 +31,7 @@ function App() {
       <div style={{
         position: "fixed", top: 0, bottom: 0, left: 0, right: 0
       }}>
-        <Snowfall color="#c9576e" snowflakeCount={60} />
+        <Snowfall color="#c9576e" snowflakeCount={isMobile ? 10 : 60} />
       </div>
       <Landing />
       <About ref={aboutRef} />
